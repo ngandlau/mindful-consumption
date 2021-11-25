@@ -33,6 +33,12 @@
             "run_at": "document_start",
             "all_frames": true,
             "js": ["/hide_amazon.js"]
+        },
+        {
+            "matches": [
+                "*://www.amazon.de/*"
+            ],
+            "js": ["/intercept_add_to_cart.js"]
         }
     ]
 }
